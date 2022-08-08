@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Convert{% endblock %}
+
+{% block content %}
+    <form action="/convert" method="POST">
+        <div class="mb-1">
+          <label class="form-label">Convert from</label>
+          <input class="form-control" style="width: 150px;" name="Current1">
+        </div>
+        <div class="mb-1">
+            <label class="form-label">Convert to</label>
+            <input class="form-control" style="width: 150px;" name="Current2">
+          </div>
+          <div class="mb-1">
+            <label class="form-label">Amount</label>
+            <input class="form-control" style="width: 150px;" name="Amount">
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+{% endblock %}

@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #e9c46a;
+    font-size: 2rem;
+}
+ul>li
+{
+    background-color: #e76f51;
+    margin: .5rem 0rem;
+    padding: .4rem;
+    list-style: none;
+    border-radius:.5rem;
+    color:white;
+    max-width: 1000px;
+}
+main{
+    position: absolute;
+    top:15rem;
+}
+button {
+    border-radius: .5rem;
+    height: 30px;
+    width: 140px;
+    border: none;
+    color: white;
+    background-color:#2a9d8f ;
+}
