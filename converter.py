@@ -8,7 +8,7 @@ def checkCur(cur):
                 c.get_rates(cur) 
                 return True
         except:
-                return f'Invalid currency:{cur}'
+                return f'Invalid input: {cur}'
 def checkAmount(amount):
         if len(amount)<1:return 'Empty amount input'
         try:
