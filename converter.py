@@ -42,3 +42,4 @@ def check(arr,amount):
                 message.append(checkAmount(amount))
         return message
 
+print(checkCur())
